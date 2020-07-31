@@ -1,9 +1,7 @@
-# Cкрипт отправки почты с gmail
-
 # Импортируем необходимые библиотеки
 # stplib для работы с протоколом smtp
 import smtplib
-# mime понадобятся для работы с кириллицей
+# email понадобятся для работы с кириллицей
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
